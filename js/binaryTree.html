@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/productos.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <style>
+        body {
+            background-color: bisque;
+
+        }
+    </style>
+    <div id="app"></div>
+    <section id="productos">
+        <form>
+            <label for="txtcod">
+                <div style="text-align:center" ;>
+                    <p style="font-size:large";><i>Código</i></p><br> <input type="text" id="txtcod">
+                </div>
+            </label> <br>
+            <label for="txtnom">
+                <div style="text-align:center" ;>
+                   <p style="font-size:large";><i>Nombre</i></p><input type="text" id="txtnom">
+                </div>
+            </label><br>
+            <label for="txtcost">
+                <div style="text-align:center" ;>
+                   <p style="font-size:large";><i>Costo</i></p><input type="number" id="txtcost">
+                </div>
+            </label><br>
+            <label for="txtcont">
+                <div style="text-align:center" ;>
+                    <p style="font-size:large";><i>Cantidad</i></p><input type="number" id="txtcant">
+                </div>
+            </label><br> <br>
+
+             <div style="text-align:center";>
+            <button style="border-radius: 35px; font-weight:600;" type="button" id="btnagregar">Agregar</button>
+            <button style="border-radius: 35px;font-weight: 600;" type="button" id="btnbuscar">Buscar</button>
+            <button style="border-radius: 35px;font-weight: 600;" type="button" id="btninorder">Inorder</button>
+            <button style="border-radius: 35px;font-weight: 600;" type="button" id="btnpreorder">Preorder</button>
+            <button style="border-radius: 35px;font-weight: 600;" type="button" id="btnpostorder">Postorder</button>
+            <button style="border-radius: 35px;font-weight: 600;" type="reset">Cancelar</button>
+            <button style="border-radius: 35px;font-weight: 600;" type="button" id="btnclear">Borrar detalles</button>
+        </div>
+
+
+
+        </form>
+    </section>
+    <div id="detalles"></div>
+
+</body>
+<script src="js/app.js"></script>
+
+</html>
